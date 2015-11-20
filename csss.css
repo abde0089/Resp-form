@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+font-family: cursive;
+}
+form {
+
+max-width: 80%;
+    margin: auto;
+    font-family: sans-serif, serif;
+}
+label{
+display:none;
+}
+
+
+
+input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+}
+
+
+/*
+
+input {
+    display: block;
+    padding: 0.5rem;
+    clear: both;
+    width: 100%;
+}
+*/
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+    div{
+    float: left;
+        width: 50%;
+        padding-bottom: 1rem;
+    }
+    
+    input {
+        width: 75%;
+        height: 20px;
+        float: left;
+        padding: 10px;
+    }
+    label{
+    display: block;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    
+      label,
+    input {
+        width: 70%;
+        height: 20px;
+        float: left;
+        padding: 10px;
+    }
+    label{
+    width: 20%;
+    display: inline-block;
+    
+    }
+    
+    #sub{
+        margin: 20px; 
+        width: 130px;
+    }
+}
